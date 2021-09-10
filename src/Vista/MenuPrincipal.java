@@ -122,22 +122,47 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jMenu9.setText("Productos");
 
         jMenuItem12.setText("Categoria");
+        jMenuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem12ActionPerformed(evt);
+            }
+        });
         jMenu9.add(jMenuItem12);
 
         jMenuItem14.setText("Unidad Medida");
+        jMenuItem14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem14ActionPerformed(evt);
+            }
+        });
         jMenu9.add(jMenuItem14);
 
         jMenuItem13.setText("Producto");
+        jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem13ActionPerformed(evt);
+            }
+        });
         jMenu9.add(jMenuItem13);
 
         jMenu2.add(jMenu9);
         jMenu2.add(jSeparator4);
 
         jMenuItem5.setText("Proveedores");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem5);
         jMenu2.add(jSeparator5);
 
         jMenuItem6.setText("Clientes");
+        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem6ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem6);
 
         jMenuBar1.add(jMenu2);
@@ -146,6 +171,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jMenu3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
 
         jMenuItem7.setText("Inventario");
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem7);
 
         jMenuBar1.add(jMenu3);
@@ -154,6 +184,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jMenu4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
 
         jMenuItem8.setText("Ingreso Producto");
+        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem8ActionPerformed(evt);
+            }
+        });
         jMenu4.add(jMenuItem8);
 
         jMenuBar1.add(jMenu4);
@@ -162,20 +197,40 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jMenu5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
 
         jMenuItem9.setText("Cotizacion");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
         jMenu5.add(jMenuItem9);
         jMenu5.add(jSeparator6);
 
         jMenuItem10.setText("Boleta");
+        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem10ActionPerformed(evt);
+            }
+        });
         jMenu5.add(jMenuItem10);
         jMenu5.add(jSeparator7);
 
         jMenuItem11.setText("Factura");
+        jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem11ActionPerformed(evt);
+            }
+        });
         jMenu5.add(jMenuItem11);
         jMenu5.add(jSeparator8);
 
         jMenu10.setText("Otros");
 
         jMenuItem15.setText("Tikect");
+        jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem15ActionPerformed(evt);
+            }
+        });
         jMenu10.add(jMenuItem15);
 
         jMenu5.add(jMenu10);
@@ -188,12 +243,27 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jMenu11.setText("Reporte Ventas");
 
         jMenuItem17.setText("Facturas");
+        jMenuItem17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem17ActionPerformed(evt);
+            }
+        });
         jMenu11.add(jMenuItem17);
 
         jMenuItem18.setText("Boletas");
+        jMenuItem18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem18ActionPerformed(evt);
+            }
+        });
         jMenu11.add(jMenuItem18);
 
         jMenuItem19.setText("Tikect");
+        jMenuItem19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem19ActionPerformed(evt);
+            }
+        });
         jMenu11.add(jMenuItem19);
 
         jMenu6.add(jMenu11);
@@ -208,14 +278,29 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jMenu7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
 
         jMenuItem20.setText("Compras");
+        jMenuItem20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem20ActionPerformed(evt);
+            }
+        });
         jMenu7.add(jMenuItem20);
         jMenu7.add(jSeparator10);
 
         jMenuItem21.setText("Ventas");
+        jMenuItem21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem21ActionPerformed(evt);
+            }
+        });
         jMenu7.add(jMenuItem21);
         jMenu7.add(jSeparator11);
 
         jMenuItem22.setText("Stock Productos");
+        jMenuItem22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem22ActionPerformed(evt);
+            }
+        });
         jMenu7.add(jMenuItem22);
 
         jMenuBar1.add(jMenu7);
@@ -265,6 +350,193 @@ public class MenuPrincipal extends javax.swing.JFrame {
         usuario.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
         usuario.show();
     }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem12ActionPerformed
+        Categoria categoria = new Categoria();
+        MenuPrincipal.DesktopPane.add(categoria);    
+        categoria.toFront();
+        categoria.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = categoria.getSize();
+        categoria.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        categoria.show();
+    }//GEN-LAST:event_jMenuItem12ActionPerformed
+
+    private void jMenuItem14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem14ActionPerformed
+        UnidadMedida UniMedida = new UnidadMedida();
+        MenuPrincipal.DesktopPane.add(UniMedida);    
+        UniMedida.toFront();
+        UniMedida.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = UniMedida.getSize();
+        UniMedida.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        UniMedida.show();
+    }//GEN-LAST:event_jMenuItem14ActionPerformed
+
+    private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
+        Producto producto = new Producto();
+        MenuPrincipal.DesktopPane.add(producto);    
+        producto.toFront();
+        producto.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = producto.getSize();
+        producto.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        producto.show();
+    }//GEN-LAST:event_jMenuItem13ActionPerformed
+
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+        Proveedores proveedores = new Proveedores();
+        MenuPrincipal.DesktopPane.add(proveedores);    
+        proveedores.toFront();
+        proveedores.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = proveedores.getSize();
+        proveedores.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        proveedores.show();
+    }//GEN-LAST:event_jMenuItem5ActionPerformed
+
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+        Clientes clientes = new Clientes();
+        MenuPrincipal.DesktopPane.add(clientes);    
+        clientes.toFront();
+        clientes.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = clientes.getSize();
+        clientes.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        clientes.show();
+    }//GEN-LAST:event_jMenuItem6ActionPerformed
+
+    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+        Inventario inventario = new Inventario();
+        MenuPrincipal.DesktopPane.add(inventario);    
+        inventario.toFront();
+        inventario.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = inventario.getSize();
+        inventario.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        inventario.show();
+    }//GEN-LAST:event_jMenuItem7ActionPerformed
+
+    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
+        IngresoProductos ingProducto = new IngresoProductos();
+        MenuPrincipal.DesktopPane.add(ingProducto);    
+        ingProducto.toFront();
+        ingProducto.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = ingProducto.getSize();
+        ingProducto.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        ingProducto.show();
+    }//GEN-LAST:event_jMenuItem8ActionPerformed
+
+    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
+        Cotizacion cotizacion = new Cotizacion();
+        MenuPrincipal.DesktopPane.add(cotizacion);    
+        cotizacion.toFront();
+        cotizacion.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = cotizacion.getSize();
+        cotizacion.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        cotizacion.show();
+    }//GEN-LAST:event_jMenuItem9ActionPerformed
+
+    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
+        Boleta boleta = new Boleta();
+        MenuPrincipal.DesktopPane.add(boleta);    
+        boleta.toFront();
+        boleta.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = boleta.getSize();
+        boleta.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        boleta.show();
+    }//GEN-LAST:event_jMenuItem10ActionPerformed
+
+    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
+        Factura factura = new Factura();
+        MenuPrincipal.DesktopPane.add(factura);    
+        factura.toFront();
+        factura.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = factura.getSize();
+        factura.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        factura.show();
+    }//GEN-LAST:event_jMenuItem11ActionPerformed
+
+    private void jMenuItem15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem15ActionPerformed
+        Tikect tikect = new Tikect();
+        MenuPrincipal.DesktopPane.add(tikect);    
+        tikect.toFront();
+        tikect.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = tikect.getSize();
+        tikect.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        tikect.show();
+    }//GEN-LAST:event_jMenuItem15ActionPerformed
+
+    private void jMenuItem17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem17ActionPerformed
+        ReporteFacturas RFacturas = new ReporteFacturas();
+        MenuPrincipal.DesktopPane.add(RFacturas);    
+        RFacturas.toFront();
+        RFacturas.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = RFacturas.getSize();
+        RFacturas.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        RFacturas.show();
+    }//GEN-LAST:event_jMenuItem17ActionPerformed
+
+    private void jMenuItem18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem18ActionPerformed
+        ReportesBoletas RBoletas = new ReportesBoletas();
+        MenuPrincipal.DesktopPane.add(RBoletas);    
+        RBoletas.toFront();
+        RBoletas.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = RBoletas.getSize();
+        RBoletas.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        RBoletas.show();
+    }//GEN-LAST:event_jMenuItem18ActionPerformed
+
+    private void jMenuItem19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem19ActionPerformed
+        ReporteTikect RTiket = new ReporteTikect();
+        MenuPrincipal.DesktopPane.add(RTiket);    
+        RTiket.toFront();
+        RTiket.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = RTiket.getSize();
+        RTiket.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        RTiket.show();
+    }//GEN-LAST:event_jMenuItem19ActionPerformed
+
+    private void jMenuItem20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem20ActionPerformed
+        ConsultaCompras CCompras = new ConsultaCompras();
+        MenuPrincipal.DesktopPane.add(CCompras);    
+        CCompras.toFront();
+        CCompras.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = CCompras.getSize();
+        CCompras.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        CCompras.show();
+    }//GEN-LAST:event_jMenuItem20ActionPerformed
+
+    private void jMenuItem21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem21ActionPerformed
+        ConsultaVentas CVentas = new ConsultaVentas();
+        MenuPrincipal.DesktopPane.add(CVentas);    
+        CVentas.toFront();
+        CVentas.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = CVentas.getSize();
+        CVentas.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        CVentas.show();
+    }//GEN-LAST:event_jMenuItem21ActionPerformed
+
+    private void jMenuItem22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem22ActionPerformed
+        ConsultaStokProducto CSProducto = new ConsultaStokProducto();
+        MenuPrincipal.DesktopPane.add(CSProducto);    
+        CSProducto.toFront();
+        CSProducto.setVisible(true);
+        Dimension desktopSize = DesktopPane.getSize();
+        Dimension FrameSize = CSProducto.getSize();
+        CSProducto.setLocation((desktopSize.width - FrameSize.width)/2, (desktopSize.height- FrameSize.height)/2);
+        CSProducto.show();
+    }//GEN-LAST:event_jMenuItem22ActionPerformed
 
     /**
      * @param args the command line arguments
