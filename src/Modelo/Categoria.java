@@ -1,4 +1,3 @@
-
 package Modelo;
 
 
@@ -49,8 +48,5 @@ public class Categoria {
     public void setEstado(int Estado) {
         this.Estado = Estado;
     }
-    
-    
-    
-    
+     
 }
